@@ -7,10 +7,19 @@ III. the value of third value becomes equal to the first value
 a = int(input("Enter a number : "))
 b = int(input("Enter a number : "))
 c = int(input("Enter a number : "))
+
+'''
 d = a + b + c
 a = d - (a+c)
 c = d - (b+c)
 b = d - (c+b)
+'''
+#Alternate Method
+d = a
+a = b
+b = c
+c = d
+
 print("A : ",a)
 print("B : ",b)
 print("C : ",c)
