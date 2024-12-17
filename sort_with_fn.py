@@ -1,0 +1,3 @@
+n = [2,4,6,1,3,5]
+n.sort(reverse = True)
+print(n)
